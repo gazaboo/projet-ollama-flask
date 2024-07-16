@@ -20,11 +20,11 @@
         - option 2 : `python <name_of_flask_app>.py`
 
 6. Ouvrir le navigateur pour trouver le serveur :
-    - 127.0.0.1:5000
-    - localhost:5000
+    - `127.0.0.1:5000`
+    - `localhost:5000`
 
 
-# Récupérer le projet depuis github 
+# Récupérer un projet Flask existant depuis GITHUB 
 
 1. `git clone <url_du_projet>`
 2. `cd` dans le projet.
