@@ -1,7 +1,7 @@
 # Mise en place du projet
 
 1. Overture de VS Code au BON endroit ;)
-    - file > open folder
+    - `file > open folder`
 
 2. Création des pages HTML et CSS
 
@@ -30,4 +30,4 @@
 2. `cd` dans le projet.
 3. Créer l'environnement virtuel : `conda env create -f environment.yml`
 4. Activer l'environnement : `conda activate <env_name>`
-5. python <name_of_flask_app>.py
+5. Run : `python <name_of_flask_app>.py`
