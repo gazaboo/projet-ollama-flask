@@ -15,8 +15,17 @@
 
 5. Création du serveur Flask
     - suivre les tutoriels
+    - Pour lancer le serveur : 
+        - option 1 : flask --app <name_of_flask_app> run
+        - option 2 : python <name_of_flask_app>.py
 
 6. Ouvrir le navigateur pour trouver le serveur :
     - 127.0.0.1:5000
     - localhost:5000
 
+
+# Récupérer le projet depuis github 
+
+1. git clone <url_du_projet>
+2. `cd` dans le projet.  
+3. conda env create -f environment.yml
