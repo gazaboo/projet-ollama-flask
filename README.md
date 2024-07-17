@@ -23,8 +23,8 @@
         - option 1 : `flask --app <name_of_flask_app> run`
         - option 2 : `python <name_of_flask_app>.py`
 
-    - Structure simplifiée d'un projet Flask : <br> <br>
-    <img src="./assets/arborescence.png" alt="drawing" width="300"/>
+    - Structure simplifiée d'un projet Flask : <br>
+    <img src="./assets/arborescence.png" alt="drawing" width="200"/>
     
 
 6. Ouvrir le navigateur pour trouver le serveur :
