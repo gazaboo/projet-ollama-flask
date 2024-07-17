@@ -8,7 +8,7 @@ def create_story(url):
     Cette histoire doit être en alexandrins. 
     """
 
-    res = ollama.chat(
+    res = ollama.generate(
         model="llava",
         messages=[
             {
