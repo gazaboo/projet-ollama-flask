@@ -24,7 +24,9 @@
         - option 2 : `python <name_of_flask_app>.py`
 
     - Structure simplifiée d'un projet Flask : <br>
+    Les noms `static` et `templates` sont obligatoires. <br>
     <img src="./assets/arborescence.png" alt="drawing" width="200"/>
+
     
 
 6. Ouvrir le navigateur pour trouver le serveur :
