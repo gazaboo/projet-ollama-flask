@@ -11,7 +11,7 @@ def hello_world():
     
     image_path_and_stories = []
     for url in urls:
-        story = create_story( urls )
+        story = create_story( url )
         url_html = '../' + url
         image_path_and_stories.append( (story, url_html) )
 
@@ -19,4 +19,3 @@ def hello_world():
  
 
 app.run(debug=True, port=5000)
-
