@@ -11,18 +11,29 @@
 3. Création de l'environnement virtuel (avec conda)
     - conda `create --name ollama-flask`
     - on active l'environnement (dans le terminal, ET dans VS Code)
+    <br>
+    <img src="./assets/env_vscode.png" alt="drawing" width="300"/>
+    <br>
     - installation de Flask **dans** ollama-flask
 
+
 5. Création du serveur Flask
-    - suivre les tutoriels
+    - suivre les tutoriels du cours
     - Pour lancer le serveur : 
         - option 1 : `flask --app <name_of_flask_app> run`
         - option 2 : `python <name_of_flask_app>.py`
+
+    - Structure simplifiée d'un projet Flask : <br> <br>
+    <img src="./assets/arborescence.png" alt="drawing" width="300"/>
+    
 
 6. Ouvrir le navigateur pour trouver le serveur :
     - `127.0.0.1:5000`
     - `localhost:5000`
 
+7. Exporter votre environnement 
+    - `conda export > environment.yml`
+    - cela permettra à tout le monde de reconstruire l'environnement de travail. 
 
 # Récupérer un projet Flask existant depuis GITHUB 
 
